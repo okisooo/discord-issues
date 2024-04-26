@@ -4,20 +4,20 @@
     "description": "A Discord bot to track GitHub issues",
     "main": "bot.js",
     "scripts": {
-      "start": "node bot.js"
+        "start": "node bot.js"
     },
     "keywords": [
-      "discord",
-      "bot",
-      "github",
-      "issue tracker",
-      "issue"
+        "discord",
+        "bot",
+        "github",
+        "issue tracker",
+        "issue"
     ],
     "author": "okisooo",
     "license": "MIT",
     "dependencies": {
-      "@octokit/rest": "^18.0.4",
-      "discord.js": "^13.6.0"
+        "@octokit/rest": "^18.0.4",
+        "discord.js": "^13.6.0",
+        "octokit": "^3.2.0"
     }
-  }
-  
+}
