@@ -1,6 +1,7 @@
 {
     "discordToken": "YOUR_DISCORD_BOT_TOKEN",
-    "githubToken": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN",
+    "channelID": "YOUR_CHANNEL_ID",
+    "githubToken": "YOUR_GITHUB_TOKEN",
     "repositories": [
       {
         "owner": "owner1",
