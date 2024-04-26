@@ -10,20 +10,25 @@ Discord Bot for GitHub issues!
 
 ```json
 {
-  "discordToken": "your-discord-bot-token",
-  "githubToken": "your-github-token",
-  "channelID": "discord-channel-id",
-  "repositories": [
-    {
-      "owner": "github-username",
-      "repo": "repository-name"
-    }
-  ]
-}
+    "discordToken": "YOUR_DISCORD_BOT_TOKEN",
+    "channelID": "YOUR_CHANNEL_ID",
+    "githubToken": "YOUR_GITHUB_TOKEN",
+    "repositories": [
+      {
+        "owner": "owner1",
+        "repo": "repo1"
+      },
+      {
+        "owner": "owner2",
+        "repo": "repo2"
+      }
+    ]
+  }
 ```
 
 Replace `"your-discord-bot-token"`, `"your-github-token"`, `"discord-channel-id"`, `"github-username"`, and `"repository-name"` with your actual Discord bot token, GitHub token, the ID of the Discord channel where you want to send the embeds, your GitHub username, and the name of the repository you want to track, respectively.
-You can add as many repositories as needed!
+
+*You can add as many repositories as needed!*
 
 4. Start the bot by running `node bot.js`.
 
