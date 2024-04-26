@@ -6,7 +6,7 @@ Discord Bot for GitHub issues!
 
 1. Clone this repository.
 2. Install the dependencies by running `npm install`.
-3. Create a `config.json` file in the root directory with the following structure:
+3. Edit the `config.json` file in the root directory with the following structure:
 
 ```json
 {
